@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '0.0.1',
+        'version' => '0.0.1.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'startina/mailer',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v6.5.1',
+            'version' => '6.5.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'reference' => 'dd803df5ad7492e1b40637f7ebd258fee5ca7355',
+            'dev_requirement' => false,
+        ),
+        'startina/mailer' => array(
+            'pretty_version' => '0.0.1',
+            'version' => '0.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'yurunsoft/phpmailer-swoole' => array(
+            'pretty_version' => 'v1.0.2',
+            'version' => '1.0.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yurunsoft/phpmailer-swoole',
+            'aliases' => array(),
+            'reference' => 'ec09ff66f6e9eb8b94b8574545357dc52e91c0a5',
+            'dev_requirement' => false,
+        ),
+    ),
+);
